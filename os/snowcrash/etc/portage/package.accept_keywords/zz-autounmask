@@ -1,0 +1,207 @@
+# package.accept_keywords# required by nethack (argument)
+=games-roguelike/nethack-3.6.0-r3 ~amd64
+# required by bsd-games (argument)
+=games-misc/bsd-games-2.17-r5 ~amd64
+# required by =dev-scheme/racket-6.12-r1 (argument)
+=dev-scheme/racket-6.12-r1 ~amd64
+# required by =app-editors/emacs-26.1-r1 (argument)
+=app-editors/emacs-26.1-r1 ~amd64
+# required by games-util/steam-launcher (argument)
+=games-util/steam-launcher-1.0.0.54-r4 ~amd64
+# required by =sys-fs/cryptsetup-2.0.3 (argument)
+~sys-fs/cryptsetup-2.0.3 ~amd64
+# required by sys-fs/cryptsetup-2.0.3::gentoo[argon2]
+# required by =sys-fs/cryptsetup-2.0.3 (argument)
+=app-crypt/argon2-20171227 ~amd64
+# required by net-misc/streamlink-0.11.0::gentoo
+# required by streamlink (argument)
+=dev-python/pycryptodome-3.4.7 ~amd64
+# required by net-misc/streamlink-0.11.0::gentoo
+# required by streamlink (argument)
+=dev-python/backports-shutil_which-3.5.1 ~amd64
+# required by streamlink (argument)
+=net-misc/streamlink-0.11.0 ~amd64
+# required by =media-libs/libpng-1.6.35::gentoo (argument)
+=media-libs/libpng-1.6.35 ~amd64
+# required by wine-staging (argument)
+=app-emulation/wine-staging-3.12 ~amd64
+# required by =virtual/emacs-26 (argument)
+=virtual/emacs-26 ~amd64
+# required by games-emulation/libretro-meta-1-r4::abendbrot[ppsspp]
+# required by games-emulation/retroarch-1.6.7::abendbrot[cores]
+# required by retroarch (argument)
+=games-emulation/ppsspp-libretro-1.0_pre20180328 ~amd64
+# required by games-emulation/libretro-meta-1-r4::abendbrot[desmume]
+# required by games-emulation/retroarch-1.6.7::abendbrot[cores]
+# required by retroarch (argument)
+=games-emulation/desmume-libretro-1.0_pre20180311 ~amd64
+# required by x11-misc/slop (argument)
+=x11-misc/slop-7.4 ~amd64
+# required by media-gfx/maim (argument)
+=media-gfx/maim-5.5.1 ~amd64
+# required by media-sound/mumble (argument)
+=media-sound/mumble-9999 **
+# required by app-crypt/keybase-2.1.0::gentoo
+# required by app-crypt/keybase (argument)
+=app-crypt/kbfs-2.1.0 ~amd64
+# required by app-crypt/keybase (argument)
+=app-crypt/keybase-2.1.0 ~amd64
+# required by keybase-bin (argument)
+=app-crypt/keybase-bin-2.4.0_p20180720182402 ~amd64
+# required by games-fps/xonotic-0.8.2::gentoo
+# required by xonotic (argument)
+=dev-libs/d0_blind_id-1.0 ~amd64
+# required by xonotic (argument)
+=games-fps/xonotic-0.8.2 ~amd64
+# required by x11-plugins/pidgin-window_merge (argument)
+=x11-plugins/pidgin-window_merge-0.3 ~amd64
+# required by x11-plugins/purple-facebook (argument)
+=x11-plugins/purple-facebook-20170831 ~amd64
+# required by smlnj (argument)
+=dev-lang/smlnj-110.82 ~amd64
+# required by dev-scheme/racket::localrepo (argument)
+=dev-scheme/racket-6.12-r2 ~amd64
+# required by =dev-scheme/racket-7.0 (argument)
+=dev-scheme/racket-7.0 ~amd64
+# required by media-gfx/psftools (argument)
+=media-gfx/psftools-1.0.7 ~amd64
+# required by games-util/dzip (argument)
+=games-util/dzip-2.9-r3 ~amd64
+# required by games-fps/yamagi-quake2 (argument)
+=games-fps/yamagi-quake2-7.21-r1 ~amd64
+# required by cava (argument)
+=media-sound/cava-0.6.0 ~amd64
+# required by alacritty (argument)
+=x11-terms/alacritty-20180213 ~amd64
+# required by xbanish (argument)
+=x11-misc/xbanish-1.5 ~amd64
+# required by media-fonts/fira-mono (argument)
+=media-fonts/fira-mono-3.205 ~amd64
+# required by dev-python/pymdstat (argument)
+=dev-python/pymdstat-0.4.2 ~amd64
+# required by dev-python/py-cpuinfo (argument)
+=dev-python/py-cpuinfo-3.3.0 ~amd64
+# required by app-emulation/libvirt-4.3.0::gentoo
+# required by app-emulation/libvirt-glib-1.0.0-r1::gentoo
+# required by app-emulation/virt-manager-1.5.1-r1::gentoo
+# required by @selected
+# required by @world (argument)
+=net-analyzer/openbsd-netcat-1.105-r1 ~amd64
+# required by app-text/extract_url-1.6.2::gentoo
+# required by app-text/extract_url (argument)
+=dev-perl/URI-Find-20160806.0.0 ~amd64
+# required by app-text/extract_url (argument)
+=app-text/extract_url-1.6.2 ~amd64
+# required by ponymix (argument)
+=media-sound/ponymix-5 ~amd64
+# required by xbomb (argument)
+=games-puzzle/xbomb-2.2b ~amd64
+# required by freesweep (argument)
+=games-puzzle/freesweep-0.92-r1 ~amd64
+# required by games-board/ace (argument)
+=games-board/ace-1.4-r1 ~amd64
+# required by urbanterror (argument)
+=games-fps/urbanterror-4.3.4_p20180627 ~amd64
+# required by games-fps/urbanterror-4.3.4_p20180627::gentoo
+# required by urbanterror (argument)
+=games-fps/urbanterror-data-4.3.4 ~amd64
+# required by app-editors/emacs-26.1-r1::gentoo[X,imagemagick]
+# required by @selected
+# required by @world (argument)
+=media-gfx/imagemagick-6.9.10.11 ~amd64
+# required by virtual/emacs-26::gentoo
+# required by @selected
+# required by @world (argument)
+=app-editors/emacs-26.1-r3 ~amd64
+# required by sys-apps/inxi (argument)
+=sys-apps/inxi-2.3.56 ~amd64
+# required by games-roguelike/tomenet (argument)
+=games-roguelike/tomenet-4.6.1a ~amd64
+# required by www-client/qutebrowser (argument)
+=www-client/qutebrowser-1.4.2 ~amd64
+# required by www-client/qutebrowser-1.4.2::gentoo
+# required by www-client/qutebrowser (argument)
+=dev-python/pypeg2-2.15.2 ~amd64
+# required by www-plugins/pdfjs (argument)
+=www-plugins/pdfjs-1.9.426 ~amd64
+# required by net-misc/httpie (argument)
+=net-misc/httpie-0.9.9 ~amd64
+# required by x11-misc/electricsheep-9999::tharvik
+# required by electricsheep (argument)
+#=x11-misc/flam3-9999 **
+# required by x11-misc/electricsheep-9999::tharvik
+# required by electricsheep (argument)
+=media-libs/glee-9999 **
+# required by electricsheep (argument)
+#=x11-misc/electricsheep-9999 **
+# required by electricsheep (argument)
+=x11-misc/electricsheep-2.7.33_p20170204 ~amd64
+# required by x11-misc/electricsheep-2.7.33_p20170204::stefantalpalaru
+# required by electricsheep (argument)
+=media-libs/glee-5.4.0 ~amd64
+# required by =mysql-workbench-6.3.9-r1 (argument)
+=dev-db/mysql-workbench-6.3.9-r1 ~amd64
+# required by =mysql-workbench-6.3.9 (argument)
+=dev-db/mysql-workbench-6.3.9 ~amd64
+# required by dev-util/hopper (argument)
+=dev-util/hopper-4.3.26 ~amd64
+# required by app-emulation/wine-staging-3.16::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.7.3 ~amd64
+# required by cadaver (argument)
+=net-misc/cadaver-0.23.3 ~amd64
+# required by hashcat (argument)
+=app-crypt/hashcat-4.2.0 ~amd64
+# required by clinfo (argument)
+=dev-util/clinfo-2.2.18.04.06 ~amd64
+# required by =dev-lang/smlnj-110.82-r1 (argument)
+=dev-lang/smlnj-110.82-r1 ~amd64
+# required by fgallery (argument)
+=www-apps/fgallery-1.8.2 ~amd64
+# required by syncplay (argument)
+=media-video/syncplay-1.5.1 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[video-glide64mk2]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-video-glide64mk2-2.5 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[input-sdl]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-input-sdl-2.5 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[ui-m64py]
+# required by mupen64plus (argument)
+=games-emulation/m64py-0.2.4 ~amd64
+# required by games-emulation/mupen64plus-input-sdl-2.5::gentoo
+# required by games-emulation/mupen64plus-2.5::gentoo[input-sdl]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-core-2.5-r1 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[ui-console]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-ui-console-2.5-r1 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[audio-sdl]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-audio-sdl-2.5 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[video-rice]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-video-rice-2.5 ~amd64
+# required by games-emulation/mupen64plus-2.5::gentoo[rsp-hle]
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-rsp-hle-2.5 ~amd64
+# required by mupen64plus (argument)
+=games-emulation/mupen64plus-2.5 ~amd64
+# required by games-emulation/m64py-0.2.4::gentoo
+# required by games-emulation/mupen64plus-2.5::gentoo[ui-m64py]
+# required by mupen64plus (argument)
+=dev-python/PySDL2-0.9.6 ~amd64
+# required by games-util/sdl-jstest (argument)
+=games-util/sdl-jstest-0.1.0_p20180114 ~amd64
+# required by =x11-wm/qtile-0.12.0 (argument)
+=x11-wm/qtile-0.12.0 ~amd64
+# required by =x11-wm/bspwm-0.9.5 (argument)
+=x11-wm/bspwm-0.9.5 ~amd64
+# required by x11-wm/bspwm-0.9.5::gentoo
+# required by =x11-wm/bspwm-0.9.5 (argument)
+=x11-misc/sxhkd-0.5.9 ~amd64
+# required by winny-gentoo-tools (argument)
+=sys-apps/winny-gentoo-tools-9999 ~amd64
+# required by media-fonts/fantasque-sans-mono (argument)
+=media-fonts/fantasque-sans-mono-2014.07 ~amd64

@@ -1,0 +1,12 @@
+virtual/wine ~amd64
+app-crypt/keybase-bin ~amd64
+app-text/urlview ~amd64
+media-sound/mpvc ~amd64
+app-emulation/winetricks ~amd64
+app-emulation/wine-staging ~amd64
+net-misc/youtube-dl ~amd64
+=sys-devel/gcc-8.2.0-r3 ~amd64
+www-client/qutebrowser ~amd64
+=sys-fs/cryptsetup-2.0.4-r1 ~amd64
+=sys-fs/cryptsetup-2.0.5-r1 ~amd64
+=sys-fs/cryptsetup-2.0.5 ~amd64

@@ -1,0 +1,36 @@
+sys-kernel/genkernel cryptsetup
+app-admin/sysklogd logrotate
+sys-boot/grub:2 device-mapper
+sys-block/parted device-mapper
+x11-base/xorg-server xephyr kdrive
+app-emacs/auctex preview-latex
+app-editors/emacs source toolkit-scroll-bars athena Xaw3d -gtk -gtk3 libxml2
+virtual/wine staging
+app-portage/layman sync-plugin-portage mercurial git
+sys-apps/portage doc
+games-emulation/retroarch cheevos
+games-emulation/libretro-meta parallel-n64 pcsx-rearmed
+x11-misc/redshift geoclue
+games-roguelike/nethack experimental
+net-irc/weechat python_single_target_python2_7 -python_single_target_python3_5 -python_single_target_python3_6
+media-gfx/gimp smp
+app-office/libreoffice-bin python_targets_python3_5
+dev-scheme/racket doc
+x11-terms/gnome-terminal -nautilus -gnome-shell
+media-sound/ncmpcpp clock curl outputs taglib visualizer
+games-fps/yamagi-quake2 ctf rogue xatrix
+media-video/ffmpeg openssl vpx
+app-text/texlive extra graphics
+net-mail/mu emacs
+media-video/mediainfo -wxwidgets
+app-arch/p7zip -wxwidgets
+net-wireless/wpa_supplicant eap-sim fasteap uncommon-eap-types
+dev-scheme/chicken doc
+app-emulation/winetricks rar
+dev-python/PyQt5 webchannel
+x11-misc/xaos threads aalib
+dev-lang/python sqlite
+sys-fs/cryptsetup argon2
+app-text/zathura-meta postscript djvu cb
+#games-emulation/mupen64plus-libretro gles2 vulkan
+x11-wm/qtile -python_targets_python2_7 python_targets_python3_6

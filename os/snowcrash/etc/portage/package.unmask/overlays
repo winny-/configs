@@ -1,0 +1,19 @@
+net-misc/unison::sattvik
+app-eselect/eselect-unison::sattvik
+games-util/steam-launcher::steam-overlay
+games-emulation/*libretro*::abendbrot
+games-emulation/retroarch*::abendbrot
+games-emulation/glsl-shaders::abendbrot
+games-emulation/common-overlays::abendbrot
+app-crypt/keybase-bin::dmchurch
+media-sound/cava::quarks
+x11-terms/alacritty::ArtSoftware
+media-sound/ponymix::hossie
+media-libs/glee::stefantalpalaru
+x11-misc/electricsheep::stefantalpalaru
+dev-util/hopper::jollheef-overlay
+www-apps/fgallery::robert7k
+x11-misc/lemonbar::petkovich
+# required by games-util/sdl-jstest (argument)
+# /etc/portage/package.mask/overlays:
+=games-util/sdl-jstest-0.1.0_p20180114

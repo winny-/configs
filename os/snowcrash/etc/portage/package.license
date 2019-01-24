@@ -1,0 +1,8 @@
+# required by www-client/google-chrome (argument)
+>=www-client/google-chrome-67.0.3396.99 google-chrome
+# required by virtualbox-bin (argument)
+=app-emulation/virtualbox-bin-5.2.14.123301 PUEL
+# required by games-fps/urbanterror-4.3.4_p20180627::gentoo
+# required by urbanterror (argument)
+>=games-fps/urbanterror-data-4.3.4 Q3AEULA-20000111
+app-emulation/virtualbox-bin PUEL

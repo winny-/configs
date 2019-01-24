@@ -1,0 +1,3 @@
+sys-libs/glibc debugsyms installsources strlen
+x11-misc/xaos debugsyms installsources
+x11-misc/i3status debugsyms installsources
