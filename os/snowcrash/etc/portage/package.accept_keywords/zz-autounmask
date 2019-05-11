@@ -205,3 +205,94 @@
 =sys-apps/winny-gentoo-tools-9999 ~amd64
 # required by media-fonts/fantasque-sans-mono (argument)
 =media-fonts/fantasque-sans-mono-2014.07 ~amd64
+# required by media-plugins/alsa-plugins-1.1.6::gentoo[ffmpeg,-libav]
+# required by media-sound/pulseaudio-12.2::gentoo[alsa-plugin,alsa]
+# required by mail-client/thunderbird-bin-60.4.0-r1::gentoo[pulseaudio]
+# required by @selected
+# required by @world (argument)
+=media-video/ffmpeg-4.1 ~amd64
+# required by media-video/ffmpeg-4.1::gentoo[video_cards_nvidia]
+# required by app-emulation/wine-staging-4.0::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+=media-libs/nv-codec-headers-8.1.24.2 ~amd64
+# required by games-emulation/retroarch-1.6.7::abendbrot[alsa]
+# required by @selected
+# required by @world (argument)
+=media-libs/alsa-lib-1.1.8 ~amd64
+# required by swftools (argument)
+=media-gfx/swftools-0.9.2-r1 ~amd64
+# required by games-simulation/micropolis (argument)
+=games-simulation/micropolis-1.0-r1 ~amd64
+## required by dev-python/PyQt5-5.12_pre1812231618::gentoo
+## required by =dev-python/PyQt5-5.12_pre1812231618 (argument)
+##=dev-python/PyQt5-sip-4.19.14_pre1812231555 ~amd64
+## required by dev-python/PyQt5-5.10.1-r1::gentoo
+## required by www-client/qutebrowser-1.5.2::gentoo
+## required by @selected
+## required by @world (argument)
+#=dev-python/sip-4.19.14_pre1812231555 ~amd64
+# required by lightspark (argument)
+=www-plugins/lightspark-0.8.1 ~amd64
+# required by www-client/torbrowser-launcher (argument)
+=www-client/torbrowser-launcher-0.3.1 ~amd64
+# required by app-emulation/wine-staging-4.1::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.7.5 ~amd64
+# required by games-fps/quake3 (argument)
+=games-fps/quake3-1.36-r1 ~amd64
+# required by games-fps/quake3-1.36-r1::gentoo
+# required by games-fps/quake3 (argument)
+=games-fps/quake3-data-1.32b ~amd64
+# required by dev-libs/gumbo (argument)
+=dev-libs/gumbo-0.10.1 ~amd64
+# required by media-sound/mpd-0.21.4-r1::gentoo[-libav,ffmpeg]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=media-video/ffmpeg-4.1.1 ~amd64
+# required by =sci-mathematics/octave-4.4.0 (argument)
+=sci-mathematics/octave-4.4.0 ~amd64
+# required by app-emulation/wine-staging-4.5::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.8.0 ~amd64
+# required by app-emulation/wine-staging-4.5::gentoo[faudio]
+# required by @selected
+# required by @world (argument)
+=app-emulation/faudio-19.03 ~amd64
+# required by prover9 (argument)
+=sci-mathematics/prover9-2009.11a ~amd64
+# required by dev-python/requests-2.21.0-r1::gentoo
+# required by net-misc/streamlink-1.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/urllib3-1.24.1 ~amd64
+# required by games-fps/etqw-bin (argument)
+=games-fps/etqw-bin-1.5-r1 ~amd64
+# required by gnustep-base/libobjc2 (argument)
+=gnustep-base/libobjc2-1.8.1 ~amd64
+# required by x11-plugins/wmsystemtray (argument)
+=x11-plugins/wmsystemtray-1.4-r2 ~amd64
+# required by x11-plugins/wmmixer (argument)
+=x11-plugins/wmmixer-1.8 ~amd64
+# required by app-emulation/wine-staging-4.6-r1::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.8.1 ~amd64
+# required by games-fps/doomsday (argument)
+=games-fps/doomsday-2.0.3 ~amd64
+# required by =media-libs/gegl-0.2.0-r6::gentoo (argument)
+=media-libs/gegl-0.2.0-r6 ~amd64
+# required by =media-libs/gegl-0.3.34 (argument)
+=media-libs/gegl-0.3.34 ~amd64
+# required by obs-studio (argument)
+=media-video/obs-studio-23.1.0 ~amd64
+# required by app-emulation/wine-staging-4.7-r1::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.8.3 ~amd64
+# required by dev-python/PyQt5-5.10.1-r1::gentoo
+# required by www-client/torbrowser-launcher-0.3.1::torbrowser
+# required by @selected
+# required by @world (argument)
+#=dev-python/sip-4.19.16 ~amd64

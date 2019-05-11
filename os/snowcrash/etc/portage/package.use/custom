@@ -19,7 +19,7 @@ dev-scheme/racket doc
 x11-terms/gnome-terminal -nautilus -gnome-shell
 media-sound/ncmpcpp clock curl outputs taglib visualizer
 games-fps/yamagi-quake2 ctf rogue xatrix
-media-video/ffmpeg openssl vpx
+media-video/ffmpeg openssl vpx fdk
 app-text/texlive extra graphics
 net-mail/mu emacs
 media-video/mediainfo -wxwidgets
@@ -34,3 +34,16 @@ sys-fs/cryptsetup argon2
 app-text/zathura-meta postscript djvu cb
 #games-emulation/mupen64plus-libretro gles2 vulkan
 x11-wm/qtile -python_targets_python2_7 python_targets_python3_6
+sci-mathematics/octave gnuplot doc gui
+www-plugins/lightspark nsplugin ppapi
+games-fps/quake3 curl dedicated
+app-admin/gkrellm lm_sensors hddtemp
+games-roguelike/cataclysm-dda sound
+media-sound/mpc doc
+www-client/links fbcon gpm
+x11-wm/windowmaker xrandr
+sys-devel/gcc objc
+games-fps/darkplaces lights textures
+games-fps/zandronum timidity
+media-gfx/blender man
+media-sound/mpd libsoxr

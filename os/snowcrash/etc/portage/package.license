@@ -6,3 +6,16 @@
 # required by urbanterror (argument)
 >=games-fps/urbanterror-data-4.3.4 Q3AEULA-20000111
 app-emulation/virtualbox-bin PUEL
+# required by www-plugins/adobe-flash (argument)
+>=www-plugins/adobe-flash-32.0.0.114 AdobeFlash-11.x
+# required by games-fps/quake3-1.36-r1::gentoo
+# required by games-fps/quake3 (argument)
+>=games-fps/quake3-data-1.32b Q3AEULA
+# required by games-fps/etqw-bin (argument)
+>=games-fps/etqw-bin-1.5-r1 ETQW
+# required by media-video/ffmpeg-4.1.2::gentoo[fdk]
+# required by virtual/ffmpeg-9-r2::gentoo[-libav]
+# required by net-misc/streamlink-1.0.0::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/fdk-aac-0.1.5 FraunhoferFDK

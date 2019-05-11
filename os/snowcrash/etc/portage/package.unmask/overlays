@@ -17,3 +17,10 @@ x11-misc/lemonbar::petkovich
 # required by games-util/sdl-jstest (argument)
 # /etc/portage/package.mask/overlays:
 =games-util/sdl-jstest-0.1.0_p20180114
+# required by www-client/torbrowser-launcher (argument)
+# /etc/portage/package.mask/overlays:
+www-client/torbrowser-launcher::torbrowser
+games-strategy/openra::dr
+games-roguelike/cataclysm-dda::raiagent
+games-fps/gzdoom::haarp
+games-fps/zandronum::haarp
