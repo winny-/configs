@@ -1,0 +1,65 @@
+xft*antialias: true
+
+Xcursor.size: 32
+
+! xterm stuff
+xterm*metaSendsEscape: true
+xterm*eightBitInput: false
+xterm*faceName: Droid Sans Mono Slashed:style=Regular:size=11
+xterm*cursorColor: #d6d6d6
+
+! urxvt stuff
+urxvt.jumpScroll: true
+urxvt.skipScoll: true
+urxvt.scrollBar: false
+urxvt.font: xft:Droid Sans Mono Slashed:style=Regular:size=11, xft:Unifont:style=Medium
+
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
+
+!Theme Nine
+*.background: black
+!*.foreground: white
+!*.background: rgb:1a/1a/1a
+*.foreground: rgb:d6/d6/d6
+*.color0:     rgb:00/00/00
+*.color1:     rgb:9e/18/28
+*.color2:     rgb:00/88/00
+*.color3:     rgb:96/8a/38
+*.color4:     rgb:41/41/71
+*.color5:     rgb:96/3c/59
+*.color6:     rgb:41/81/79
+*.color7:     rgb:be/be/be
+!*.color7:     rgb:8d/8d/8d
+*.color8:     rgb:66/66/66
+*.color9:     rgb:cf/61/71
+*.color10:     rgb:7c/bc/8c
+*.color11:     rgb:ff/f7/96
+*.color12:     rgb:41/86/be
+*.color13:     rgb:cf/9e/be
+*.color14:     rgb:71/be/be
+*.color15:    rgb:ff/ff/ff
+
+! *Clock.majorColor:      rgb:d6/d6/d6
+! *Clock.minorColor:      rgb:66/66/66
+! *Clock.background:      black
+! *Clock.hourColor:       rgb:00/88/00
+! *Clock.minuteColor:     rgb:41/41/17
+! *Clock.secondColor:     rgb:96/8a/38
+! *Clock.highlight:       rgb:ff/ff/ff
+
+*Clock.update:          1
+*Clock.render:          true
+
+! Via https://unix.stackexchange.com/questions/89304/facelifting-xclock-while-using-xrender-a-long-and-winding-road
+XClock*foreground: #fbfbfb
+XClock*background: #000018
+XClock.Clock.majorColor:  rgba:f0/f0/19/7b
+XClock.Clock.minorColor:  rgba:a0/c0/f0/c0
+XClock.Clock.hourColor:   rgba:c9/66/11/72
+XClock.Clock.minuteColor: rgba:00/82/9f/72
+XClock.Clock.secondColor: rgba:50/93/30/6f

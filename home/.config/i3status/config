@@ -1,0 +1,77 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        markup = pango
+        colors = true
+        interval = 1
+        separator = "  "
+}
+
+#order += "ipv6"
+#order += "run_watch DHCP"
+order += "run_watch VPN"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "battery 1"
+order += "disk /"
+order += "volume master"
+order += "load"
+order += "tztime local"
+
+wireless _first_ {
+        format_up = "📶 (%quality @ %essid) %ip"
+        format_down = ""
+}
+
+ethernet _first_ {
+        # XXX: this fucking symbol 🖧 just fucks everything up line-height wise on snowcrash
+        #
+        # if you use %speed, i3status requires root privileges
+        format_up = "E %ip (%speed)"
+        format_down = ""
+}
+
+battery 1 {
+        status_chr = "⚡"
+        status_bat = "🔋"
+        status_full = "🔌"
+        status_unk = "?"
+        format = "%status %percentage %remaining"
+        format_down = ""
+        hide_seconds = true
+}
+
+volume master {
+       format = "🔊 %volume"
+       format_muted = "🔈"
+}
+
+run_watch DHCP {
+        pidfile = "/var/run/dhclient*.pid"
+}
+
+run_watch VPN {
+          pidfile = "/var/run/openvpn.pid"
+          format_down = ""
+          format = "VPN"
+}
+
+tztime local {
+#       format = "%a %b %d %H:%M:%S"
+        format = "%a %b %F %T"
+}
+
+load {
+        format = "%1min %5min %15min"
+#        max_threshold = ""
+}
+
+disk "/" {
+        format = "%avail"
+}
