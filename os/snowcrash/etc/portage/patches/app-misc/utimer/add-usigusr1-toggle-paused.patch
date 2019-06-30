@@ -1,0 +1,52 @@
+diff --git a/src/utils.c b/src/utils.c
+index 505f0ec..164a6de 100644
+--- a/src/utils.c
++++ b/src/utils.c
+@@ -208,6 +208,21 @@ void success_quitloop ()
+   quitloop (EXIT_SUCCESS);
+ }
+ 
++/**
++ * Toggles the paused timer state.
++ * This is needed for callbacks.
++ */
++void toggle_paused()
++{
++  if (paused) {
++    g_timer_continue(ut_config.timer);
++    paused = FALSE;
++  } else {
++    g_timer_stop(ut_config.timer);
++    paused = TRUE;
++  }
++}
++
+ /**
+  * Check to see if the user wants to quit.
+  * This function waits till the user hits the 'q' key to quit the program,
+diff --git a/src/utils.h b/src/utils.h
+index 51068c3..7b85398 100644
+--- a/src/utils.h
++++ b/src/utils.h
+@@ -47,6 +47,7 @@ int           check_exit_from_user      ();
+ void          quitloop                  (int error_status);
+ void          error_quitloop            ();
+ void          success_quitloop          ();
++void          toggle_paused             ();
+ void          set_tty_canonical         (int state);
+ void          reset_tty_canonical_mode  ();
+ void          init_config               (Config *conf);
+diff --git a/src/utimer.c b/src/utimer.c
+index 8c901de..16adbda 100644
+--- a/src/utimer.c
++++ b/src/utimer.c
+@@ -379,7 +379,8 @@ int main (int argc, char *argv[])
+   { /* No mode selected! We quit the loop ASAP. */
+     g_idle_add ((GSourceFunc) error_quitloop, NULL);
+   }
+-  
++
++  signal (SIGUSR1,  toggle_paused);
+   
+   /* ------------- Starting the main loop ---------------- */
+   

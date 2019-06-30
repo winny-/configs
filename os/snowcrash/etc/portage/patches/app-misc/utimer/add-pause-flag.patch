@@ -1,0 +1,36 @@
+diff --git a/src/timer.c b/src/timer.c
+index cfe7916..6976dbb 100644
+--- a/src/timer.c
++++ b/src/timer.c
+@@ -346,6 +346,11 @@ ut_timer* timer_new (guint seconds,
+     g_debug ("%s: timer is NULL. Returning NULL.", __FUNCTION__);
+     return NULL;
+   }
++
++  if (paused)
++  {
++    g_timer_stop (timer);
++  }
+   
+   ut_timer* t;
+   t = g_new (ut_timer, 1);
+diff --git a/src/utimer.c b/src/utimer.c
+index 8c901de..8a6747b 100644
+--- a/src/utimer.c
++++ b/src/utimer.c
+@@ -60,6 +60,15 @@ static GOptionEntry entries[] = {
+     N_("start the stopwatch. Use 'Q' key to quit"),
+     NULL
+   },
++
++  {"paused",
++   'p',
++   0,
++   G_OPTION_ARG_NONE,
++   &(paused),
++   N_("start utimer paused"),
++   NULL
++  },
+   
+   {"verbose",
+     'v',

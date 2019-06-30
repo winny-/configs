@@ -1,0 +1,43 @@
+diff --git a/main.c b/main.c
+index 5b7e92d..18b35c3 100644
+--- a/main.c
++++ b/main.c
+@@ -96,6 +96,7 @@ static void show_version( void )
+   printf( "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+           "This is free software: you are free to change and redistribute it.\n"
+           "There is NO WARRANTY, to the extent permitted by law.\n" );
++  printf( "\nTweaked by winny for great meme value ;-)\n" );
+   }
+ 
+ 
+@@ -201,7 +202,7 @@ int main( const int argc, const char * const argv[] )
+       }
+     else
+       {
+-      fputs( "?\n", stdout );
++      fputs( "¿\n", stdout );
+       if( arg[0] ) set_error_msg( "Invalid filename" );
+       if( is_regular_file( 0 ) ) return 2;
+       }
+diff --git a/main_loop.c b/main_loop.c
+index 5c15199..4a7d9e0 100644
+--- a/main_loop.c
++++ b/main_loop.c
+@@ -693,7 +693,7 @@ int main_loop( const bool loose )
+   set_signals();
+   status = setjmp( jmp_state );
+   if( !status ) enable_interrupts();
+-  else { status = -1; fputs( "\n?\n", stdout ); set_error_msg( "Interrupt" ); }
++  else { status = -1; fputs( "\n¿\n", stdout ); set_error_msg( "Interrupt" ); }
+ 
+   while( true )
+     {
+@@ -710,7 +710,7 @@ int main_loop( const bool loose )
+     else status = exec_command( &ibufp, status, false );
+     if( status == 0 ) continue;
+     if( status == QUIT ) return err_status;
+-    fputs( "?\n", stdout );			/* give warning */
++    fputs( "¿\n", stdout );			/* give warning */
+     if( !loose && err_status == 0 ) err_status = 1;
+     if( status == EMOD ) set_error_msg( "Warning: buffer modified" );
+     if( is_regular_file( 0 ) )
