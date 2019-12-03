@@ -1,0 +1,15 @@
+# required by x11-libs/libdrm-2.4.91::gentoo[video_cards_intel]
+# required by x11-misc/redshift-1.12::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libpciaccess-0.14 abi_x86_32
+# required by x11-libs/libva-1.7.3::gentoo[video_cards_i965,video_cards_intel]
+# required by media-video/mpv-0.27.2::gentoo[vaapi]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libva-intel-driver-1.7.3 abi_x86_32
+# required by gnome-base/gnome-keyring-3.20.1::gentoo
+# required by app-crypt/libsecret-0.18.6-r1::gentoo
+# required by gnome-extra/nm-applet-1.8.14::gentoo
+# required by nm-applet (argument)
+>=app-crypt/pinentry-1.0.0-r2 gnome-keyring

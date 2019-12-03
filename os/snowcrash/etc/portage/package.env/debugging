@@ -1,3 +1,6 @@
 sys-libs/glibc debugsyms installsources strlen
 x11-misc/xaos debugsyms installsources
 x11-misc/i3status debugsyms installsources
+app-admin/lnav debugsyms installsources
+sys-libs/ncurses:0 debugsyms installsources
+sys-libs/ncurses:5 debugsyms installsources

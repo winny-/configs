@@ -1,0 +1,17 @@
+## Enable documentation
+
+sys-apps/portage doc
+
+# Racket needs documentation to properly complete pkg
+# installation. Also it's very handy.
+dev-scheme/racket doc
+
+dev-scheme/chicken doc
+sci-mathematics/octave doc
+media-sound/mpc doc  # manpages
+mail-client/neomutt doc  # manpages
+app-text/zathura doc  # manpages
+x11-wm/i3-gaps doc  # html user guide
+media-gfx/blender man
+x11-wm/stumpwm doc
+app-emulation/qemu doc

@@ -1,0 +1,16 @@
+net-misc/sacc
+www-client/dillo
+www-client/firefox-bin
+www-client/google-chrome
+www-client/links
+www-client/lynx
+www-client/torbrowser-launcher
+www-client/w3m
+
+## Qutebrowser stuff
+www-client/qutebrowser
+www-plugins/pdfjs
+# For openfeeds
+dev-python/beautifulsoup:4
+# For the readability userscript
+dev-python/readability-lxml

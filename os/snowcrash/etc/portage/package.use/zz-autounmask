@@ -437,7 +437,7 @@
 >=app-arch/p7zip-16.02-r4 wxwidgets
 # required by www-client/qutebrowser-1.4.2::gentoo
 # required by www-client/qutebrowser (argument)
->=dev-python/PyQt5-5.10.1-r1 webengine declarative sql
+>=dev-python/PyQt5-5.10.1-r1 declarative sql
 # required by dev-python/PyQt5-5.10.1-r1::gentoo[webengine]
 # required by www-client/qutebrowser-1.4.2::gentoo
 # required by www-client/qutebrowser (argument)
@@ -648,3 +648,28 @@
 # required by @selected
 # required by @world (argument)
 >=media-libs/fdk-aac-0.1.5 abi_x86_32
+# required by dev-libs/libindicate-12.10.1-r3::gentoo[gtk]
+# required by mail-client/claws-mail-3.17.3-r1::gentoo[notification,libindicate]
+# required by mail-client/claws-mail (argument)
+>=dev-libs/libdbusmenu-16.04.0 gtk3
+# required by games-fps/etqw-bin-1.5-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/jpeg-compat-62 abi_x86_32
+# required by games-util/slade-9999::jacendi-overlay
+# required by games-util/slade (argument)
+>=x11-libs/wxGTK-3.0.4-r300 gstreamer
+# required by dev-db/mysql-workbench-8.0.16::gentoo
+# required by mysql-workbench (argument)
+>=net-libs/libssh-0.9.0 server
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by app-crypt/libsecret-0.18.8::gentoo
+# required by dev-db/mysql-workbench-8.0.16::gentoo
+# required by mysql-workbench (argument)
+>=app-crypt/pinentry-1.1.0-r2 gnome-keyring
+# required by kde-apps/kdenlive-19.04.3::gentoo
+# required by kdenlive (argument)
+>=media-libs/mlt-6.16.0-r2 kdenlive melt frei0r
+# required by media-tv/kodi-18.4::gentoo
+# required by media-tv/kodi (argument)
+>=net-misc/curl-7.66.0 http2

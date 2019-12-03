@@ -1,0 +1,107 @@
+# Every entry here should be without a specific version. This is the
+# so-called "unstable" portion of this gentoo installation.
+#
+# Reasons to place things in here:
+#
+# 1. One always wants the latest tested version of the given
+# ebuild. (~amd64)
+#
+# 2. One always wants the latest (unstested) version
+# or a the given ebuild. (**) Or maybe it's a live ebuild.
+#
+# 3. Or less likely — it's impractical to manage release engineering
+# for the particular ebuild due to other reasons.
+#
+# In a perfect world not anything would exist here, but one must
+# practicalness with stability.
+
+## Prefer testing Qt
+dev-qt/* ~amd64
+dev-python/PyQt5 ~amd64
+dev-python/PyQtWebEngine ~amd64
+
+## Prefer testing wine
+virtual/wine ~amd64
+app-emulation/winetricks ~amd64
+app-emulation/wine-staging ~amd64
+
+## Stuff I maintain ebuilds for. I prefer to just keyword things and
+## not stable-ize anything.
+net-im/ripcord-bin ~amd64
+net-im/chatty-bin ~amd64
+app-text/urlview ~amd64
+media-fonts/go ~amd64
+media-sound/mpvc ~amd64
+dev-games/libtcod ~amd64
+games-roguelike/brogue ~amd64
+games-roguelike/tsl ~amd64
+games-util/eureka ~amd64
+# https://github.com/jollheef/jollheef-overlay/pull/1
+dev-util/hopper ~amd64
+dev-util/hex2bin ~amd64
+games-fps/quakespasm ~amd64
+dev-scheme/racket ~amd64
+# For qutebrowser readability userscript
+dev-python/readability-lxml ~amd64
+www-servers/darkhttpd ~amd64
+x11-wm/stumpwm ~amd64
+# Related to stumpwm, but I don't maintain itx
+x11-wm/stumpwm-contrib ~amd64
+
+## Interacts with external services that break APIs frequently
+net-misc/youtube-dl ~amd64
+net-misc/streamlink ~amd64
+
+## Games without useful releng
+games-strategy/openra ~amd64
+games-fps/blackshades ~amd64
+games-action/armagetronad ~amd64
+games-action/gltron ~amd64
+games-fps/ezquake-bin ~amd64
+games-fps/darkplaces ~amd64
+games-fps/quake1-textures ~amd64
+games-fps/chocolate-doom **
+games-fps/gzdoom ~amd64
+games-fps/yamagi-quake2 ~amd64
+games-fps/zandronum ~amd64
+# Playing C:DDA from release is like reading news a year late.
+games-roguelike/cataclysm-dda **
+games-action/abuse ~amd64
+games-util/slade ~amd64
+games-strategy/freeciv ~amd64
+games-arcade/supertux ~amd64
+games-action/supertuxkart ~amd64
+games-fps/dhewm3 ~amd64
+games-fps/etqw-bin ~amd64
+games-simulation/singularity ~amd64
+
+## Unsorted
+app-crypt/keybase-bin ~amd64
+www-client/qutebrowser ~amd64
+media-video/mpv ~amd64
+x11-terms/alacritty ~amd64
+media-gfx/maim ~amd64
+net-misc/sacc ~amd64
+media-sound/mpd ~amd64
+media-video/obs-studio ~amd64
+net-misc/unison:2.48 ~amd64
+app-eselect/eselect-unison ~amd64
+x11-terms/kitty ~amd64
+x11-terms/sakura ~amd64
+sys-kernel/linux-docs ~amd64
+app-portage/metagen ~amd64
+mail-client/aerc ~amd64
+games-util/qjoypad ~amd64
+games-util/xboxdrv ~amd64
+x11-misc/xkbset ~amd64
+app-benchmarks/s-tui ~amd64
+app-office/plan ~amd64
+app-emulation/vagrant ~amd64
+media-sound/mumble ~amd64
+x11-wm/bspwm ~amd64
+app-emulation/virtualbox-modules ~amd64
+app-emulation/virtualbox-bin ~amd64
+media-libs/allegro ~amd64  # for tsl
+net-im/signal-desktop-bin ~amd64
+x11-misc/autorandr ~amd64
+sys-cluster/minikube ~amd64

@@ -1,0 +1,6 @@
+# -*- mode: conf -*-
+#
+# Python Dev stuff
+
+dev-python/pip
+dev-python/virtualenv

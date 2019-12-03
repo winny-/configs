@@ -1,0 +1,24 @@
+# I have had problems with cryptsetup 1.x not working on some of my
+# LUKS volumes, so just avoid it.
+<sys-fs/cryptsetup-2
+
+# Requires really old libicu
+<app-office/libreoffice-bin-6.2.4.2
+
+# Ensure we match the right dependency graph in qutebrowser
+>=dev-python/PyQtWebEngine-5.13.0
+
+# It appears smlnj works despite this bug being unresolved, something
+# to do with switching to a 17.1 profile fixed it.
+dev-lang/smlnj::winny
+
+# TODO remove?
+virtual/libffi:0/7=
+dev-libs/libffi:0/7=
+
+# Never, ever allow udev, since we use eudev
+sys-fs/udev
+
+# Poppler is slow and shit, so don't allow that pdf backend be
+# installed.
+app-text/zathura-pdf-poppler

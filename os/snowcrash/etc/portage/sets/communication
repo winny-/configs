@@ -1,0 +1,22 @@
+# -*- mode: conf -*-
+#
+# Everything to do with online communication.
+
+## Pidgin
+net-im/pidgin
+x11-plugins/pidgin-otr
+x11-plugins/pidgin-window_merge
+x11-plugins/purple-facebook
+
+##
+mail-client/aerc
+mail-client/mailx
+mail-client/neomutt
+mail-filter/procmail
+media-sound/mumble
+net-mail/mu
+net-mail/offlineimap
+net-im/chatty-bin
+net-im/ripcord-bin
+net-im/signal-desktop-bin
+net-irc/weechat

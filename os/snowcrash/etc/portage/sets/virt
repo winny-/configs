@@ -1,0 +1,11 @@
+# -*- mode: conf -*-
+#
+# Everything related to virtualization and containerization
+
+app-emulation/aqemu
+app-emulation/docker
+app-emulation/docker-compose
+app-emulation/vagrant
+app-emulation/virt-manager
+app-emulation/virtualbox-bin
+sys-cluster/minikube

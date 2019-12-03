@@ -1,0 +1,6 @@
+# required by games-util/sdl-jstest (argument)
+# /etc/portage/package.mask/overlays:
+=games-util/sdl-jstest-0.1.0_p20180114
+# required by =app-misc/solaar-9999 (argument)
+# /etc/portage/package.mask/overlays:
+=app-misc/solaar-9999

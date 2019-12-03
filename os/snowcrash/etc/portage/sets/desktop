@@ -1,0 +1,98 @@
+# -*- mode: conf -*-
+#
+# Desktop stuff
+
+# Xorg itself
+x11-base/xorg-drivers
+x11-base/xorg-x11
+
+# Disploy Manager
+x11-misc/lightdm
+
+# Desk toys
+x11-apps/xclock
+x11-apps/xeyes
+
+# Desktop theme
+x11-themes/vertex-icon-theme
+x11-themes/vertex-theme
+
+# Utilities
+gnome-extra/zenity
+sys-apps/lcdtest
+x11-apps/mesa-progs
+x11-apps/xfontsel
+x11-misc/arandr
+x11-misc/autorandr
+x11-misc/compton
+x11-misc/slop
+x11-misc/trayer-srg
+x11-misc/wmctrl
+x11-misc/wmname
+x11-misc/xbanish
+x11-misc/xbindkeys
+x11-misc/xclip
+x11-misc/xdotool
+x11-misc/xkbset
+x11-misc/qt5ct
+x11-misc/redshift
+x11-misc/xosview
+x11-misc/xwrits
+app-misc/solaar
+x11-misc/xsel
+x11-misc/lemonbar
+# For opening links easily in every terminal
+app-text/urlview
+
+## GKrellm
+app-admin/gkrellm
+x11-themes/gkrellm-themes
+
+## Launchers
+x11-misc/dmenu
+x11-misc/rofi
+
+## Notification Daeman
+x11-misc/dunst
+
+## Screensaver
+x11-misc/xscreensaver
+
+## Terminal Emulators
+x11-terms/rxvt-unicode
+x11-terms/xfce4-terminal
+x11-terms/xterm
+
+## XMonad stuff
+x11-wm/xmonad
+x11-wm/xmonad-contrib
+x11-misc/xmobar
+
+## Window Maker stuff
+# x11-plugins/wmbutton
+# x11-plugins/wmmixer
+# x11-plugins/wmmon
+# x11-plugins/wmsystemtray
+# x11-wm/windowmaker
+
+## XFCE stuff
+xfce-base/xfce4-meta
+x11-themes/xfwm4-themes
+
+xfce-extra/xfce4-battery-plugin
+xfce-extra/xfce4-netload-plugin
+xfce-extra/xfce4-pulseaudio-plugin
+xfce-extra/xfce4-systemload-plugin
+xfce-extra/xfce4-time-out-plugin
+xfce-extra/xfce4-whiskermenu-plugin
+
+## i3 stuff
+x11-wm/i3-gaps
+
+x11-misc/i3lock
+x11-misc/i3status
+
+## Other WMs
+x11-wm/bspwm
+x11-wm/fluxbox
+x11-wm/ratpoison

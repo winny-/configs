@@ -1,0 +1,6 @@
+app-editors/emacs
+app-editors/emacs:26
+app-emacs/auctex
+app-emacs/ebuild-mode
+app-emacs/emacs-daemon
+virtual/emacs

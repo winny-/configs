@@ -1,0 +1,2 @@
+media-video/mediainfo -wxwidgets
+app-arch/p7zip -wxwidgets

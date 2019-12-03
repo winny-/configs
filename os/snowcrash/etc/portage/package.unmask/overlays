@@ -1,26 +1,35 @@
-net-misc/unison::sattvik
-app-eselect/eselect-unison::sattvik
-games-util/steam-launcher::steam-overlay
+## Stuff from overlays I actually want to install
+##
+## Sorted with:
+##
+## racket -e '(for-each (compose1 displayln second)
+##                      (sort (map (lambda (x) (match (string-split x "::") [(list _ o) (list o x)]))
+##                                 (port->list read-line)
+##                            string-ci<? #:key string-join))' < /etc/portage/package.unmask/overlays
 games-emulation/*libretro*::abendbrot
-games-emulation/retroarch*::abendbrot
-games-emulation/glsl-shaders::abendbrot
 games-emulation/common-overlays::abendbrot
+games-emulation/glsl-shaders::abendbrot
+games-emulation/retroarch*::abendbrot
+games-fps/dhewm3::bobwya
 app-crypt/keybase-bin::dmchurch
-media-sound/cava::quarks
-x11-terms/alacritty::ArtSoftware
-media-sound/ponymix::hossie
-media-libs/glee::stefantalpalaru
-x11-misc/electricsheep::stefantalpalaru
-dev-util/hopper::jollheef-overlay
-www-apps/fgallery::robert7k
-x11-misc/lemonbar::petkovich
-# required by games-util/sdl-jstest (argument)
-# /etc/portage/package.mask/overlays:
-=games-util/sdl-jstest-0.1.0_p20180114
-# required by www-client/torbrowser-launcher (argument)
-# /etc/portage/package.mask/overlays:
-www-client/torbrowser-launcher::torbrowser
 games-strategy/openra::dr
-games-roguelike/cataclysm-dda::raiagent
+dev-games/zdbsp::earshark
+x11-misc/autorandr::flow
 games-fps/gzdoom::haarp
 games-fps/zandronum::haarp
+games-util/doomseeker::haarp
+media-sound/ponymix::hossie
+<games-util/slade-9999::jacendi-overlay
+dev-util/hopper::jollheef-overlay
+app-benchmarks/s-tui::linxon
+x11-misc/lemonbar::petkovich
+media-sound/cava::quarks
+games-roguelike/cataclysm-dda::raiagent
+www-apps/fgallery::robert7k
+games-fps/quakespasm::roslin
+app-eselect/eselect-unison::sattvik
+net-misc/unison::sattvik
+games-util/steam-launcher::steam-overlay
+media-libs/glee::stefantalpalaru
+x11-misc/electricsheep::stefantalpalaru
+www-client/torbrowser-launcher::torbrowser

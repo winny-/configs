@@ -1,0 +1,7 @@
+## Working around broken dependencies and the like.
+
+# https://bugs.gentoo.org/show_bug.cgi?id=700534 just use newer version of plugin 
+=app-text/zathura-pdf-mupdf-0.3.5 ~amd64
+
+=sys-fs/eudev-3.2.9 ~amd64
+=virtual/libudev-232-r2 ~amd64

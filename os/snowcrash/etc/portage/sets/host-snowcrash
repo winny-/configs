@@ -1,4 +1,5 @@
-x11-drivers/nvidia-drivers
 www-servers/lighttpd
 games-fps/xonotic
 games-fps/quake3
+games-fps/dhewm3
+games-fps/urbanterror

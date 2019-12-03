@@ -13,9 +13,35 @@ app-emulation/virtualbox-bin PUEL
 >=games-fps/quake3-data-1.32b Q3AEULA
 # required by games-fps/etqw-bin (argument)
 >=games-fps/etqw-bin-1.5-r1 ETQW
-# required by media-video/ffmpeg-4.1.2::gentoo[fdk]
-# required by virtual/ffmpeg-9-r2::gentoo[-libav]
-# required by net-misc/streamlink-1.0.0::gentoo
-# required by @selected
-# required by @world (argument)
-=media-libs/fdk-aac-0.1.5 FraunhoferFDK
+media-libs/fdk-aac FraunhoferFDK
+# The following package(s) are using licenses which aren't covered by
+# ACCEPT_LICENSE="@FREE" setting nor have entries in the package.license file:
+dev-util/hopper Hopper-Disassembler-LA
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+app-text/dictd ISOC-rfc
+media-fonts/corefonts MSttfEULA
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/font-bh-ttf bh-luxi
+games-roguelike/tomenet Moria
+games-util/steam-launcher ValveSteamLicense
+games-emulation/genplus-libretro GPGX
+games-emulation/mame2003-libretro MAME-GPL
+games-emulation/fbalpha-libretro FBA
+media-libs/fmod fmod
+x11-themes/gkrellm-themes freedist
+app-arch/unrar unRAR
+media-sound/timidity-eawpatches free-noncomm
+x11-drivers/nvidia-drivers NVIDIA-r2
+# required by milkytracker (argument)
+>=media-sound/milkytracker-1.0.0 AIFFWriter.m
+# required by plan9port (argument)
+>=dev-util/plan9port-20140306-r4 9base BigelowHolmes
+# required by games-fps/urbanterror-4.3.4_p20180708::gentoo
+# required by urbanterror (argument)
+>=games-fps/urbanterror-data-4.3.4 urbanterror-4.2-maps
+net-im/ripcord-bin ripcord-alpha-preview
+games-fps/gzdoom  Activision ChexQuest3 DOOM-COLLECTORS-EDITION freedist
+# required by games-roguelike/tsl (argument)
+>=games-roguelike/tsl-0.40 TSL
+# required by sys-firmware/intel-microcode (argument)
+>=sys-firmware/intel-microcode-20191115_p20191110 intel-ucode

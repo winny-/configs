@@ -1,9 +1,12 @@
+## Mask all overlays be default; only unmask what is actually
+## used. This avoids overlay maintainers from replacing ebuilds
+## present in the main gentoo ebuild repository with their own
+## versions that may not work as intended.
 */*::sattvik
 */*::steam-overlay
 */*::abendbrot
 */*::dmchurch
 */*::quarks
-*/*::ArtSoftware
 */*::hossie
 */*::tharvik
 */*::stefantalpalaru
@@ -15,3 +18,9 @@
 */*::raiagent
 */*::science
 */*::haarp
+*/*::roslin
+*/*::bobwya
+*/*::jacendi-overlay
+*/*::earshark
+*/*::linxon
+*/*::flow

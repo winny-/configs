@@ -1,0 +1,143 @@
+# -*- mode: conf -*-
+#
+# This should be everything that is expected to be installed on a
+# fresh system.
+
+## Bootloader
+sys-boot/grub:2               # GRUB 2
+
+## General monitoring
+sys-apps/dstat                # Better iostat
+sys-process/htop              # Better top
+sys-process/latencytop        # Pinpoint where desktop responsivity goes to die
+
+## System query
+sys-process/lsof              # View open file descriptors, also needed for htop
+app-misc/neofetch             # Brag about your system
+sys-apps/inxi                 # Brag in less lines
+
+## Glances
+sys-process/glances
+dev-python/netifaces          # Monitor network interfaces
+dev-python/py-cpuinfo         # Get CPU information
+dev-python/pymdstat           # Monitor RAID (md) devices
+
+## Editors
+sys-apps/ed                   # GNU ed implementation
+app-editors/nano              # Pico implementation
+app-editors/nvi               # A pretty standard Vi implementation
+
+## Data minpulation
+app-misc/jq                   # Manipulate json
+
+## Log monitoring
+app-admin/lnav                # Better tool to monitor multiple logs
+app-text/multitail            # Monitor multiple logs
+
+## Logging subsystem
+app-admin/sysklogd            # Syslog service
+app-admin/logrotate           # Manage log size
+
+## Multiplexers
+app-misc/tmux                 # Preferred multiplexer
+app-misc/screen               # For serial terminal access
+
+## Portage stuff
+app-portage/cpuid2cpuflags     # Get cpu flags for current system
+app-portage/eix                # Faster tool to query portage
+app-portage/elicense           # Generate an appropriate package.license
+app-portage/elogv              # Log viewer for gentoo logging subsystem
+app-portage/euses
+app-portage/genlop             # Monitor emerge.log, get time estimates
+app-portage/gentoolkit
+app-portage/layman             # Manage overlays
+app-portage/pfl                # Find ebuild that provides a file (e-file)
+app-portage/smart-live-rebuild # Rebuild live ebuilds (from master/trunk)
+sys-apps/winny-gentoo-tools    # Some shell scripts to manage gentoo systems
+
+## Kernel
+app-admin/eclean-kernel       # Tidy up old kernels
+sys-kernel/dracut             # Alternate (better) initramfs
+sys-kernel/genkernel          # Tool for building the kernel and initramfs
+sys-kernel/gentoo-sources     # Kernel sources
+sys-kernel/linux-docs         # Documentation, not really necessary.
+sys-kernel/linux-firmware     # Freedom vs working hardware... I pick the latter
+
+## Network utilities and diagnostics
+net-analyzer/mtr              # Diagnose network problems
+net-analyzer/nmap             # Inventory the network
+net-analyzer/openbsd-netcat   # A better netcat
+net-analyzer/speedtest-cli    # Test internet quality
+net-analyzer/tcpdump          # Inspect traffic on interfaces
+net-analyzer/traceroute       # traceroute
+net-dns/bind-tools            # dig
+net-dns/ldns-utils            # drill
+net-misc/bridge-utils         # Manage bridges
+net-misc/httpie               # User friendly HTTP tool
+net-misc/iperf                # Test the latency and throughput of your network
+sys-apps/ethtool              # Get information about ethernet interfaces
+net-misc/mosh                 # SSH alternative designed to work on degraded networks
+app-text/wgetpaste            # Paste terminal output
+net-misc/socat                # Connect various socket types together
+net-misc/telnet-bsd           # Telnet
+net-misc/whois                # Another interface for host
+net-misc/wol                  # Wake up devices via magic ethernet packet
+net-misc/curl                 # HTTP tool
+dev-vcs/git                   # Main SCM tool
+
+## System diagnostics
+dev-util/ltrace               # Trace library usage
+dev-util/strace               # Trace system calls
+sys-devel/gdb                 # Get backtraces/track down crashes
+
+## Network setup/services
+net-misc/chrony               # Time keeping
+net-misc/dhcpcd               # DHCP client
+net-misc/netifrc              # Networking scripts
+net-dns/dnsmasq               # DNS/DHCP server
+# For optional mDNS support
+sys-auth/nss-mdns             # NSS module for mDNS
+net-dns/avahi                 # Server/client tools for mDNS
+
+## Cron
+sys-process/cronie            # Easy to set up cron daemon
+
+## Extras
+app-shells/mksh               # Alternate shell
+app-misc/rlwrap               # Wrap cli tools in Readline
+app-admin/sudo                # Easier tool to manage user access
+app-shells/bash-completion    # Tab complete stuff
+app-text/tree                 # Get a nice output of a directory tree listing
+net-misc/keychain             # Manage SSH keys across sessions easily
+net-fs/davfs2                 # Mount WebDAV filesystems
+net-fs/nfs-utils              # Mount NFS
+net-fs/sshfs                  # Mount SSH
+net-ftp/ftp                   # Connect to FTP
+sys-apps/pv                   # Monitor progress of pipelines
+sys-apps/mlocate              # Index & locate files
+
+## Storage
+app-crypt/nwipe               # Secure erasure
+sys-apps/gptfdisk             # Fdisk for GPT disklabels
+sys-apps/hdparm               # Get HD information/performance metrics
+sys-apps/smartmontools        # Check S.M.A.R.T. Data
+sys-block/parted              # Partition editor
+sys-fs/cryptsetup             # LUKS and friends
+sys-fs/dosfstools             # Tools for working with FAT
+sys-fs/lvm2                   # LVM2 support
+sys-fs/mdadm                  # Linux RAID (md) support
+sys-fs/ncdu                   # Analyze disk usage
+sys-fs/squashfs-tools         # Create and extract squash filesystems
+
+## Power management
+sys-power/acpi                # Read ACPI data (battery & thermals)
+sys-power/cpupower            # Manage cpu speed in userspace
+sys-power/pm-utils            # pm-suspend, pm-hibernate, etc
+sys-power/powertop            # Monitor power usage of various subsystems
+
+## Device management
+sys-apps/hwinfo               # Generate a report of hardware configuration
+sys-apps/lshw                 # Another hardware configuration reporter
+sys-apps/lm-sensors           # Get sensor data
+sys-apps/pciutils             # Query PCI device information
+sys-apps/usbutils             # Query USB device information

@@ -1,0 +1,34 @@
+diff --git a/gdb/main.c b/gdb/main.c
+index e14dd06..7ba9a38 100644
+--- a/gdb/main.c
++++ b/gdb/main.c
+@@ -949,6 +949,7 @@ captured_main_1 (struct captured_main_args *context)
+       exit (0);
+     }
+ 
++  #if 0
+   /* FIXME: cagney/2003-02-03: The big hack (part 1 of 2) that lets
+      GDB retain the old MI1 interpreter startup behavior.  Output the
+      copyright message before the interpreter is installed.  That way
+@@ -965,11 +966,13 @@ captured_main_1 (struct captured_main_args *context)
+       gdb_flush (gdb_stdout);	/* Force to screen during slow
+ 				   operations.  */
+     }
++  #endif
+ 
+   /* Install the default UI.  All the interpreters should have had a
+      look at things by now.  Initialize the default interpreter.  */
+   set_top_level_interpreter (interpreter_p);
+ 
++  #if 0
+   /* FIXME: cagney/2003-02-03: The big hack (part 2 of 2) that lets
+      GDB retain the old MI1 interpreter startup behavior.  Output the
+      copyright message after the interpreter is installed when it is
+@@ -986,6 +989,7 @@ captured_main_1 (struct captured_main_args *context)
+       gdb_flush (gdb_stdout);	/* Force to screen during slow
+ 				   operations.  */
+     }
++  #endif
+ 
+   /* Set off error and warning messages with a blank line.  */
+   tmp_warn_preprint.reset ();

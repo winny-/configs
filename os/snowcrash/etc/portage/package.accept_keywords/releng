@@ -1,0 +1,12 @@
+=www-client/torbrowser-launcher-0.3.2 ~amd64  # No stable tor
+
+## Releng emacs so it doesn't upgrade when I' m not paying attention
+=app-emacs/emacs-common-gentoo-1.6-r3 ~amd64
+~app-editors/emacs-26.3 ~amd64
+
+=sys-apps/ed-1.15
+
+## For stumpwm
+=dev-lisp/alexandria-20171029 ~amd64
+=dev-lisp/clx-0.7.5 ~amd64
+~dev-lisp/sbcl-1.5.7 ~amd64

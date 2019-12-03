@@ -6,3 +6,5 @@ www-client/firefox notmpfs.conf
 dev-java/icedtea notmpfs.conf
 dev-lang/ghc notmpfs.conf
 dev-lang/rust notmpfs.conf
+games-roguelike/cataclysm-dda notmpfs.conf
+dev-qt/qtwebengine notmpfs.conf

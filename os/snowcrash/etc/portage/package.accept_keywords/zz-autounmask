@@ -2,10 +2,6 @@
 =games-roguelike/nethack-3.6.0-r3 ~amd64
 # required by bsd-games (argument)
 =games-misc/bsd-games-2.17-r5 ~amd64
-# required by =dev-scheme/racket-6.12-r1 (argument)
-=dev-scheme/racket-6.12-r1 ~amd64
-# required by =app-editors/emacs-26.1-r1 (argument)
-=app-editors/emacs-26.1-r1 ~amd64
 # required by games-util/steam-launcher (argument)
 =games-util/steam-launcher-1.0.0.54-r4 ~amd64
 # required by =sys-fs/cryptsetup-2.0.3 (argument)
@@ -39,8 +35,6 @@
 =x11-misc/slop-7.4 ~amd64
 # required by media-gfx/maim (argument)
 =media-gfx/maim-5.5.1 ~amd64
-# required by media-sound/mumble (argument)
-=media-sound/mumble-9999 **
 # required by app-crypt/keybase-2.1.0::gentoo
 # required by app-crypt/keybase (argument)
 =app-crypt/kbfs-2.1.0 ~amd64
@@ -124,8 +118,6 @@
 =dev-python/pypeg2-2.15.2 ~amd64
 # required by www-plugins/pdfjs (argument)
 =www-plugins/pdfjs-1.9.426 ~amd64
-# required by net-misc/httpie (argument)
-=net-misc/httpie-0.9.9 ~amd64
 # required by x11-misc/electricsheep-9999::tharvik
 # required by electricsheep (argument)
 #=x11-misc/flam3-9999 **
@@ -139,16 +131,6 @@
 # required by x11-misc/electricsheep-2.7.33_p20170204::stefantalpalaru
 # required by electricsheep (argument)
 =media-libs/glee-5.4.0 ~amd64
-# required by =mysql-workbench-6.3.9-r1 (argument)
-=dev-db/mysql-workbench-6.3.9-r1 ~amd64
-# required by =mysql-workbench-6.3.9 (argument)
-=dev-db/mysql-workbench-6.3.9 ~amd64
-# required by dev-util/hopper (argument)
-=dev-util/hopper-4.3.26 ~amd64
-# required by app-emulation/wine-staging-3.16::gentoo[mono]
-# required by @selected
-# required by @world (argument)
-=app-emulation/wine-mono-4.7.3 ~amd64
 # required by cadaver (argument)
 =net-misc/cadaver-0.23.3 ~amd64
 # required by hashcat (argument)
@@ -194,13 +176,6 @@
 =dev-python/PySDL2-0.9.6 ~amd64
 # required by games-util/sdl-jstest (argument)
 =games-util/sdl-jstest-0.1.0_p20180114 ~amd64
-# required by =x11-wm/qtile-0.12.0 (argument)
-=x11-wm/qtile-0.12.0 ~amd64
-# required by =x11-wm/bspwm-0.9.5 (argument)
-=x11-wm/bspwm-0.9.5 ~amd64
-# required by x11-wm/bspwm-0.9.5::gentoo
-# required by =x11-wm/bspwm-0.9.5 (argument)
-=x11-misc/sxhkd-0.5.9 ~amd64
 # required by winny-gentoo-tools (argument)
 =sys-apps/winny-gentoo-tools-9999 ~amd64
 # required by media-fonts/fantasque-sans-mono (argument)
@@ -234,8 +209,6 @@
 #=dev-python/sip-4.19.14_pre1812231555 ~amd64
 # required by lightspark (argument)
 =www-plugins/lightspark-0.8.1 ~amd64
-# required by www-client/torbrowser-launcher (argument)
-=www-client/torbrowser-launcher-0.3.1 ~amd64
 # required by app-emulation/wine-staging-4.1::gentoo[mono]
 # required by @selected
 # required by @world (argument)
@@ -296,3 +269,106 @@
 # required by @selected
 # required by @world (argument)
 #=dev-python/sip-4.19.16 ~amd64
+# required by net-misc/unison:2.51 (argument)
+=net-misc/unison-2.51.2 ~amd64
+# required by sys-fs/cryptsetup:0/12 (argument)
+=sys-fs/cryptsetup-2.1.0 ~amd64
+# required by app-crypt/nwipe (argument)
+=app-crypt/nwipe-0.25 ~amd64
+# required by sys-auth/yubikey-personalization-gui (argument)
+=sys-auth/yubikey-personalization-gui-3.1.25 ~amd64
+# required by dev-games/zdbsp (argument)
+=dev-games/zdbsp-1.19 ~amd64
+# required by milkytracker (argument)
+=media-sound/milkytracker-1.0.0 ~amd64
+# required by games-util/deutex (argument)
+=games-util/deutex-4.4.0 ~amd64
+# required by plan9port (argument)
+=dev-util/plan9port-20140306-r4 ~amd64
+# required by urbanterror (argument)
+=games-fps/urbanterror-4.3.4_p20180708 ~amd64
+# required by lnav (argument)
+=app-admin/lnav-0.8.5 ~amd64
+# required by app-emulation/wine-staging-4.11::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.9.0 ~amd64
+# required by dev-python/PyQt5-5.10.1-r1::gentoo
+# required by dev-python/pyudev-0.21.0::gentoo[qt5]
+# required by app-misc/solaar-0.9.2-r3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/sip-4.19.17 ~amd64
+# required by dev-python/PyQt5-5.12.2::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by dev-python/PyQtWebEngine (argument)
+=dev-python/PyQt5-sip-4.19.17 ~amd64
+# required by games-action/supertuxkart-1.0::gentoo
+# required by supertuxkart (argument)
+=dev-libs/angelscript-2.33.0 ~amd64
+# required by sys-apps/lcdtest (argument)
+=sys-apps/lcdtest-1.18 ~amd64
+# required by =app-misc/solaar-9999 (argument)
+=app-misc/solaar-9999 ~amd64
+# required by sys-apps/inxi (argument)
+=sys-apps/inxi-3.0.34.1 ~amd64
+# required by games-util/deutex (argument)
+=games-util/deutex-5.2.0 ~amd64
+# required by app-emulation/wine-staging-4.14::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.9.2 ~amd64
+# required by doomseeker (argument)
+=games-util/doomseeker-1.3 ~amd64
+# required by handbrake (argument)
+=media-video/handbrake-1.2.2-r2 ~amd64
+# required by app-emulation/vagrant-2.2.5::gentoo[ruby_targets_ruby24]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/hashicorp-checkpoint-0.1.5 ~amd64
+# required by app-emulation/vagrant-2.2.5::gentoo[ruby_targets_ruby24]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/vagrant_cloud-2.0.2 ~amd64
+# required by dev-ruby/net-scp-1.2.1-r1::gentoo[ruby_targets_ruby24]
+# required by app-emulation/vagrant-2.2.5::gentoo[ruby_targets_ruby25]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/net-ssh-5.2.0 ~amd64
+# required by app-emulation/vagrant-2.2.5::gentoo[ruby_targets_ruby24]
+# required by app-emulation/vagrant (argument)
+=dev-ruby/ed25519-1.2.4 ~amd64
+# required by img2pdf (argument)
+=media-gfx/img2pdf-0.3.3 ~amd64
+# required by dev-python/PyQt5-5.13.1::gentoo
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.7.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/sip-4.19.19 ~amd64
+# required by dev-python/PyQtWebEngine-5.12.1::gentoo
+# required by www-client/qutebrowser-1.7.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-python/PyQt5-sip-4.19.19 ~amd64
+# required by app-emulation/wine-staging-4.17::gentoo[mono]
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.9.3 ~amd64
+# required by app-emulation/faudio:0 (argument)
+=app-emulation/faudio-19.09 ~amd64
+# required by app-emulation/vagrant-2.2.6::gentoo[ruby_targets_ruby25]
+# required by @selected
+# required by @world (argument)
+=dev-ruby/vagrant_cloud-2.0.3 ~amd64
+# required by sys-devel/bmake (argument)
+=sys-devel/bmake-20170812 ~amd64
+# required by app-emulation/wine-staging-4.20::gentoo[mono]
+# required by @wine
+# required by @selected
+# required by @world (argument)
+=app-emulation/wine-mono-4.9.4 ~amd64
+# required by net-analyzer/mdns-scan (argument)
+=net-analyzer/mdns-scan-0.5 ~amd64
+# required by mail-client/aerc-0.3.0::gentoo
+# required by @communication
+# required by @selected
+# required by @world (argument)
+=app-text/scdoc-1.10.0 ~amd64

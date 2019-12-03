@@ -1,0 +1,4 @@
+sys-process/glances
+dev-python/netifaces
+dev-python/py-cpuinfo
+dev-python/pymdstat
