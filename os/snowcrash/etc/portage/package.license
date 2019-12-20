@@ -45,3 +45,4 @@ games-fps/gzdoom  Activision ChexQuest3 DOOM-COLLECTORS-EDITION freedist
 >=games-roguelike/tsl-0.40 TSL
 # required by sys-firmware/intel-microcode (argument)
 >=sys-firmware/intel-microcode-20191115_p20191110 intel-ucode
+games-fps/sauerbraten freedist

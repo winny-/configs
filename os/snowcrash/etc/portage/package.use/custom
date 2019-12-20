@@ -49,3 +49,6 @@ games-roguelike/tsl allegro
 x11-misc/autorandr pm-utils
 app-portage/pfl -network-cron  # everything pfl does is over HTTP, so minimize the risk by not reporting our system configuration.
 sys-devel/binutils multitarget  # Dumping some MIPS binaries
+app-emulation/qemu spice
+media-video/obs-studio fdk v4l
+media-video/ffmpeg v4l

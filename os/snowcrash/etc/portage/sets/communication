@@ -9,7 +9,6 @@ x11-plugins/pidgin-window_merge
 x11-plugins/purple-facebook
 
 ##
-mail-client/aerc
 mail-client/mailx
 mail-client/neomutt
 mail-filter/procmail

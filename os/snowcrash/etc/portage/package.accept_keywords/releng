@@ -10,3 +10,14 @@
 =dev-lisp/alexandria-20171029 ~amd64
 =dev-lisp/clx-0.7.5 ~amd64
 ~dev-lisp/sbcl-1.5.7 ~amd64
+
+## 2019-12-06 Installed packages with a version not in the database (or masked)
+dev-libs/angelscript:0/2.34.0 ~amd64
+~media-gfx/psftools-1.0.10 ~amd64
+~media-video/handbrake-1.3.0 ~amd64
+~x11-misc/sxhkd-0.6.1 ~amd64
+~media-libs/dav1d-0.5.1 ~amd64
+~media-libs/libvpx-1.8.0 ~amd64
+~media-video/ffmpeg-4.2.1 ~amd64
+~media-libs/nv-codec-headers-9.0.18.1 ~amd64
+=media-gfx/plantuml-1.2019.13 ~amd64

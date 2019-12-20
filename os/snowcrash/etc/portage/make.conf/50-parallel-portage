@@ -1,0 +1,2 @@
+FEATURES=parallel-install
+FEATURES=parallel-fetch

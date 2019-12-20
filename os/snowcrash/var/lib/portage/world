@@ -1,5 +1,6 @@
 app-admin/keepassxc
 app-antivirus/clamav
+app-arch/innoextract
 app-arch/p7zip
 app-arch/unrar
 app-benchmarks/s-tui

@@ -29,3 +29,7 @@ games-util/steam-launcher
 games-util/xboxdrv
 app-misc/oneko
 x11-misc/xaos
+games-fps/sauerbraten
+games-simulation/openrct2
+games-fps/quake3
+games-fps/xonotic

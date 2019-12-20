@@ -128,6 +128,8 @@ sys-fs/lvm2                   # LVM2 support
 sys-fs/mdadm                  # Linux RAID (md) support
 sys-fs/ncdu                   # Analyze disk usage
 sys-fs/squashfs-tools         # Create and extract squash filesystems
+sys-fs/exfat-utils            # Create exfat filesystems
+sys-fs/fuse-exfat             # Mount exfat filesystems
 
 ## Power management
 sys-power/acpi                # Read ACPI data (battery & thermals)

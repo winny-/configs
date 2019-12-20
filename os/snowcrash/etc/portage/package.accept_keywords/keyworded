@@ -105,3 +105,5 @@ media-libs/allegro ~amd64  # for tsl
 net-im/signal-desktop-bin ~amd64
 x11-misc/autorandr ~amd64
 sys-cluster/minikube ~amd64
+games-simulation/openrct2 ~amd64
+games-fps/sauerbraten ~amd64
