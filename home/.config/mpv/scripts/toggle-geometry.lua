@@ -10,8 +10,14 @@
 local utils = require 'mp.utils'
 
 function toggle_geometry()
+   local w , h = mp.get_osd_size()
+   if w == 0 then
+      print('No viewport.')
+      return
+   end
+      
    if mp.get_property('geometry') == '' then
-      local g = mp.get_property('width') .. 'x' .. mp.get_property('height')
+      local g = w .. 'x' .. h
       mp.set_property('geometry', g)
       mp.osd_message('Set geometry to ' .. g)
    else
