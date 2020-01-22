@@ -57,5 +57,6 @@ shopt -s histappend
 for i in ~/.bashrc.d/[0-9]*; do
     . "$i"
 done
+unset i
 
 ##################################################
