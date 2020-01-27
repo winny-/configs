@@ -9,7 +9,9 @@ case ${TERM} in
             _command="${BASH_COMMAND//[^[:print:]]/}"
             local _s
             _s='\u@\h \w'
-            echo -en "\e]0;${_s@P} ($_command)\a"
+            echo -en '\e]0;'
+            echo -n -- "${_s@P} ($_command)"
+            echo -en '\a'
         }
 	;;
     screen*)
@@ -18,7 +20,9 @@ case ${TERM} in
             _command="${BASH_COMMAND//[^[:print:]]/}"
             local _s
             _s='\u@\h \w'
-            echo -en "\ek0${_s@P} ($_command)\e"
+            echo -en '\ek0'
+            echo -n -- "${_s@P} ($_command)"
+            echo -en '\e'
         }
 	;;
     *)
