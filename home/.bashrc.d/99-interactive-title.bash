@@ -9,27 +9,23 @@ case ${TERM} in
             _command="${BASH_COMMAND//[^[:print:]]/}"
             local _s
             _s='\u@\h \w'
-            echo -en '\e]0;'
-            echo -n -- "${_s@P} ($_command)"
-            echo -en '\a'
+            printf '\e]0;%s (%s)\a' "${_s@P}" "$_command"
         }
-	;;
+        ;;
     screen*)
         _title_hook() {
             local _command
             _command="${BASH_COMMAND//[^[:print:]]/}"
             local _s
             _s='\u@\h \w'
-            echo -en '\ek0'
-            echo -n -- "${_s@P} ($_command)"
-            echo -en '\e'
+            printf '\ek0%s (%s)\e\\' "${_s@P}" "$_command"
         }
-	;;
+        ;;
     *)
         _title_hook() {
             :
         }
-	;;
+        ;;
 esac
 
 
