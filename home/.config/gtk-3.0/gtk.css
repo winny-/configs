@@ -1,0 +1,5 @@
+/* XFCE4 Panel tasklist text is always bold. It's always shouting at
+   me, so let's fix that */
+.tasklist label {
+    font-weight: normal;
+}
