@@ -1,0 +1,35 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: README
+#+DATE: <2020-02-17 Mon>
+#+AUTHOR:
+#+EMAIL: winston@snowcrash
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+startup: indent
+
+* Configuration for various systems
+
+- [[file:home/][Dotfiles]]
+- [[file:os/][Some OS configuration files]]
+- See also [[https://gitlab.com/winny-gentoo-ops][gitlab.com/winny-gentoo-ops]]. This is where I store live
+  Gentoo configs.
+
+* Notes
+
+For documenting stuff that I haven't figured out how to save as a
+dotfile, such as xfconf/gconf settings.
+
+
+** XFCE
+
+*** Better clock panel format
+
+#+begin_example
+<span font_weight="normal">%a %b %d <b>%T</b></span>
+#+end_example
