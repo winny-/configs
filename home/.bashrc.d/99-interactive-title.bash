@@ -18,6 +18,11 @@ case ${TERM} in
 esac
 
 _title_hook() {
+    # Don't add garbage if stdout is redirected.
+    if [[ ! -t 1 ]]; then
+        return
+    fi
+
     local _command
     _command="${BASH_COMMAND//[^[:print:]]/}"
     local _s
